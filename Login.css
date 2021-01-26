@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html, body {
+    
+    height: 100%;
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(100, 100,100);
+}
+
+div {
+ 
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+form {
+ 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+}
+
+img {
+    width: 50%;
+    margin-bottom: 10%;
+    align-self: center;
+}
+
+#username, #password {
+
+    width: 90%;
+    height: 35px;
+    margin-bottom: 3%;
+    border:1px solid #3897f0;
+    border-radius: 3px;
+    background-color: #3897f0;
+}
