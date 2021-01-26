@@ -13,13 +13,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: rgb(100, 100,100);
+    background-color: #D3D3D3;
 }
 
 div {
  
     display: flex;
-    width: 50%;
+    width: 25%;
     height: 50%;
     border-radius: 10px;
     background-color: white;
@@ -29,14 +29,13 @@ form {
  
     display: flex;
     flex-direction: column;
-    align-content: center;
-    width: 50%;
+    align-items: center;
+    width: 100%;
 }
 
 img {
     width: 50%;
     margin-bottom: 10%;
-    align-self: center;
 }
 
 #username, #password {
@@ -46,5 +45,24 @@ img {
     margin-bottom: 3%;
     border:1px solid #3897f0;
     border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.login {
+
+    width: 90%;
+    height: 35px;
+    margin-bottom: 3%;
+    border:1px solid #3897f0;
+    border-radius: 3px;
+    outline: none;
     background-color: #3897f0;
+    color: white;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: blue;
 }
